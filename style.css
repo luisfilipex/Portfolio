@@ -271,15 +271,12 @@ footer {
   .project-info {
     width: 80%;
   }
-}
-.redes img {
-    width: 30px; 
-    height: 30px; 
-  }
+
   .redes {
     flex-direction: column;
     align-items: center;
     margin-top: 0;
+  }
 
   .redes img {
     width: 50px;
