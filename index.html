@@ -36,7 +36,8 @@
           <p>Natural de Goiânia-Goiás</p>
           <p>29 anos, casado,</p>
           <p></p>Desenvolvedor Front-End
-          Atualmente estou cursando a Graduação de Ciências da computação 2º Semestre onde foi iniciada em 2023, tenho experiência em desenvolvimento Web curso feito no SENAC em 2023 (HTML, CSS, VUE.JS). Também estou realizando o curso de Programador de sistemas pelo SENAC, Pretendo me tornar um desenvolvedor Full-Stack no futuro.</p><br>
+          Tenho 29 anos, casado,
+          Atualmente estou cursando a Graduação de Ciências da computação 2º Semestre onde foi iniciada em 2023, tenho experiência em desenvolvimento Web curso feito no SENAC em 2023 (Html, Css, Vue.JS). Também estou cursando o curso de Programador de sistemas pelo Senac, Pretendo me tornar um desenvolvedor Full-Stack no futuro.</p><br>
           <h3>Minhas Habilidades</h3>
           <p>HTML, CSS, JAVASCRIPT.</p>
         </span>
@@ -96,11 +97,13 @@
   <section id="contact">
     <h2>Contato</h2>
     <form
-    action="https://formsubmit.co/filipe_rapex@hotmail.com" 
-    method="POST">
-      <input type="text" placeholder="Digite seu nome" required/>
-      <input type="email" placeholder="Digite seu e-mail" required />
-      <textarea cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+    action="https://api.staticforms.xyz/submit" method="POST" id="myForm">
+    <input type="hidden" name="accessKey" value="273499ca-9825-47f2-a1ec-1cbb7e352f44">
+    <input type="hidden" name="redirectTo" value="https://luisfilipex.github.io/Portfolio/">
+
+      <input type="text" name="name" placeholder="Digite seu nome" required/>
+      <input type="email" name="email" placeholder="Digite seu e-mail" required />
+      <textarea cols="30" name="message" rows="10" placeholder="Digite sua mensagem" required></textarea>
       <button type="submit" data-button>Enviar</button>
     </form>
   </section>
