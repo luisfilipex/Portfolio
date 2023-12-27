@@ -211,7 +211,7 @@ input, textarea, button {
   font-size: 18px;
   cursor: pointer;
   opacity: 0.9;
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 #contact form button:hover{
